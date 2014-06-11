@@ -1,0 +1,7 @@
+;;;; "multimethod.setup  -*- Hen -*-
+
+(include "setup-helper")
+
+(verify-extension-name "multimethod")
+
+(setup-shared-extension-module (extension-name) (extension-version "0.0.0"))

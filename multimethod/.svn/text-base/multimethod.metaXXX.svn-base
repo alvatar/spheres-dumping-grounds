@@ -1,0 +1,13 @@
+;;;; "multimethod.meta  -*- Hen -*-
+
+((egg "multimethod.egg")
+ (category lang-ext)
+ (author "[[kon lovett]]")
+ (license "BSD")
+ (doc-from-wiki)
+ (synopsis "Simple Multi-Methods")
+ (needs setup-helper synch check-errors)
+ (files
+  "tests"
+  "multimethod.scm"
+  "multimethod.setup") )
